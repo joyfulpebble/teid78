@@ -131,12 +131,15 @@
 
   .founderror__img {
     position: relative;
+    height: 200px;
+    border-radius: 8px;
   }
 
   .founderror__front__ground {
     /* display: none; */
     max-width: clamp(100px, calc((100vw * 300) / 767), 300px);
     width: 100%;
+    border-bottom-left-radius: 8px;
   }
 
   .founderror__left {
