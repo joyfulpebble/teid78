@@ -132,14 +132,14 @@
   .founderror__img {
     position: relative;
     height: 200px;
-    border-radius: 8px;
+    border-radius: 16px;
   }
 
   .founderror__front__ground {
     /* display: none; */
     max-width: clamp(100px, calc((100vw * 300) / 767), 300px);
     width: 100%;
-    border-bottom-left-radius: 8px;
+    border-bottom-left-radius: 16px;
   }
 
   .founderror__left {
@@ -207,7 +207,7 @@
   position: absolute;
   z-index: 4;
   left: 0;
-  bottom: -1px;
+  bottom: 0px;
   max-width: 620px;
   width: 100%;
 }
@@ -249,7 +249,7 @@
 .founderror__anim {
   position: absolute;
   z-index: 2;
-  left: 0;
+  left: 0px;
   bottom: 0;
 }
 
