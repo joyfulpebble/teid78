@@ -18,7 +18,7 @@
   border: 1px solid #302f2f;
   position: fixed;
   left: 50%;
-  bottom: 20px;
+  bottom: 0;
   transform: translateX(-50%);
   font-size: 18px;
   transition: bottom 1s ease-in-out;
@@ -49,14 +49,14 @@
   }
 
   .cookie__popup {
-    max-width: 320px;
+    max-width: 100%;
     width: 100%;
     flex-direction: column;
-    padding: 20px;
+    padding: 20px 20px 10px 20px;
     gap: 0;
   }
   .cookie__btn__wrapper {
-    max-width: 100%;
+    max-width: 280px;
     margin-top: 20px;
   }
 }
