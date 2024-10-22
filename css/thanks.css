@@ -43,9 +43,15 @@
   margin-bottom: clamp(24px, 5.28vw, 74px);
 }
 
-@media (max-width: 767px) {
+@media (max-width: 991px) {
   .thanks__inner-content-title br {
     display: none;
+  }
+}
+
+@media (max-width: 390px) {
+  .thanks__inner-content-title br {
+    display: block;
   }
 }
 
