@@ -21,7 +21,7 @@
   bottom: 20px;
   transform: translateX(-50%);
   font-size: 18px;
-  transition: bottom 1s ease-in-out;
+  transition: all 1s ease-in-out;
   z-index: 1000;
 }
 
@@ -41,6 +41,7 @@
 
 .hide {
   bottom: -1000px;
+  display: none;
 }
 
 @media (max-width: 767px) {
@@ -55,6 +56,9 @@
     padding: 20px;
     gap: 0;
     bottom: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border: none;
   }
 
   .cookie__btn__wrapper {

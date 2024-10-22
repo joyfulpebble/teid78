@@ -24,7 +24,7 @@
   gap: clamp(26px, 4.85vw, 68px);
   background-color: #fff;
   border-radius: clamp(12px, 1.14vw, 16px);
-  padding: clamp(16px, 1.42vw, 20px) clamp(16px, 5.57vw, 60px);
+  padding: 10px 20px;
 }
 
 @media (max-width: 767px) {
@@ -81,7 +81,7 @@
 
   50% {
     transform: scaleY(0.99);
-    /* transform: scaleX(0.99); */
+    transform: scaleX(0.99);
   }
 
   100% {
@@ -106,14 +106,19 @@
   }
   .thanks__traktor {
     /* display: none; */
-    max-width: clamp(180px, calc((100vw * 520) / 1920), 520px);
-    right: clamp(125px, calc((100vw * 250) / 767), 250px);
+    max-width: clamp(190px, calc((100vw * 520) / 1920), 520px);
+    right: 40%;
+    animation: unset;
+    bottom: 20px;
+    /* right: clamp(125px, calc((100vw * 250) / 767), 250px); */
   }
 
   .thanks__person {
     /* display: none; */
     max-width: clamp(120px, calc((100vw * 361) / 1920), 361px);
-    right: clamp(50px, calc((100vw * 100) / 767), 100px);
+    right: 25%;
+    bottom: 20px;
+    /* right: clamp(50px, calc((100vw * 100) / 767), 100px); */
   }
 }
 
@@ -158,6 +163,13 @@
   .thanks__inner-content {
     max-width: 100%;
     width: 100%;
+    padding: 0;
+  }
+
+  .thanks__inner-content-box {
+    padding-bottom: 20px;
+  }
+  .thanks__inner {
     padding: 20px;
   }
 }

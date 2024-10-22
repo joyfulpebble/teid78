@@ -281,6 +281,12 @@
   }
 }
 
+@media (max-width: 1440px) {
+  .founderror__traktor {
+    /* bottom: 15px; */
+    right: 100px;
+  }
+}
 .dust-one {
   animation: dustOne 9s ease-in-out 1s infinite;
   transform: translate(0, 20px);
