@@ -67,10 +67,6 @@
   .cookie__text span {
     display: inline;
   }
-
-  .cookie__popup {
-    bottom: 0;
-  }
 }
 /* 
 @media (max-width: px) {
