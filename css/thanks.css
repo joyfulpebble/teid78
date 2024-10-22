@@ -98,6 +98,11 @@
   max-width: clamp(190px, calc((100vw * 361) / 1920), 361px);
   width: 100%;
 }
+@media (max-width: 1024px) {
+  .thanks__traktor {
+    max-width: clamp(350px, calc((100vw * 520) / 1920), 520px);
+  }
+}
 
 @media (max-width: 767px) {
   .thanks__inner {
