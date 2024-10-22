@@ -109,6 +109,7 @@
 
   .founderror__traktor {
     bottom: 20px;
+    right: 70px;
   }
 
   .founderror__anim {
@@ -222,14 +223,14 @@
   bottom: 0;
 }
 
-@media (max-width: 1024px) {
+/* @media (max-width: 1024px) {
   .founderror__anim {
     max-width: 500px;
     width: 100%;
     overflow: hidden;
-    top: 5px;
+    top: 5px; 
   }
-}
+} */
 
 @media (max-width: 767px) {
   .founderror__anim {
