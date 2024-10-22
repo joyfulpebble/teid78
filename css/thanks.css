@@ -21,10 +21,10 @@
   align-items: center;
   -ms-flex-line-pack: center;
   align-content: center;
-  gap: clamp(26px, 4.85vw, 68px);
+  gap: 18px;
   background-color: #fff;
   border-radius: clamp(12px, 1.14vw, 16px);
-  padding: 10px 20px;
+  padding: 20px;
 }
 
 @media (max-width: 767px) {
@@ -110,6 +110,18 @@
   }
 }
 
+@media (max-width: 991px) {
+  .thanks__inner-content {
+    max-width: clamp(250px, calc((100vw * 500) / 991), 500px);
+  }
+  .thanks__traktor {
+    /* display: none; */
+    max-width: clamp(310px, calc((100vw * 520) / 1920), 520px);
+    bottom: 0px;
+    /* right: clamp(125px, calc((100vw * 250) / 767), 250px); */
+  }
+}
+
 @media (max-width: 767px) {
   .thanks__inner {
     display: flex;
@@ -142,7 +154,7 @@
 }
 
 .thanks__bottom-btn {
-  max-width: 300px;
+  max-width: 265px;
   width: 100%;
 }
 
@@ -162,11 +174,6 @@
 @media (max-width: 1440px) {
   .thanks__inner-content {
     max-width: clamp(500px, calc((100vw * 588) / 1440), 588px);
-  }
-}
-@media (max-width: 991px) {
-  .thanks__inner-content {
-    max-width: clamp(250px, calc((100vw * 500) / 991), 500px);
   }
 }
 
