@@ -69,6 +69,23 @@
   right: clamp(50px, calc((100vw * 305) / 1920), 305px);
   max-width: clamp(130px, calc((100vw * 520) / 1920), 520px);
   width: 100%;
+  transition: max-width 0.5s;
+  animation: traktor 3s ease-in infinite;
+}
+
+@keyframes traktor {
+  0% {
+    max-width: clamp(130px, calc((100vw * 520) / 1920), 520px);
+  }
+
+  50% {
+    transform: scaleY(0.99);
+    transform: scaleX(0.99);
+  }
+
+  100% {
+    max-width: clamp(130px, calc((100vw * 520) / 1920), 520px);
+  }
 }
 
 .thanks__person {
