@@ -56,6 +56,7 @@
     gap: 0;
     bottom: 0;
   }
+
   .cookie__btn__wrapper {
     max-width: 280px;
     margin-top: 20px;
@@ -65,6 +66,10 @@
 @media (max-width: 906px) {
   .cookie__text span {
     display: inline;
+  }
+
+  .cookie__popup {
+    bottom: 0;
   }
 }
 /* 
