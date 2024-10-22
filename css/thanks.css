@@ -117,7 +117,7 @@
   }
   .thanks__traktor {
     /* display: none; */
-    max-width: clamp(190px, calc((100vw * 520) / 1920), 520px);
+    max-width: clamp(150px, calc((100vw * 520) / 1920), 520px);
     right: 40%;
     animation: unset;
     bottom: 20px;
@@ -126,7 +126,7 @@
 
   .thanks__person {
     /* display: none; */
-    max-width: clamp(120px, calc((100vw * 361) / 1920), 361px);
+    max-width: clamp(100px, calc((100vw * 361) / 1920), 361px);
     right: 25%;
     bottom: 20px;
     /* right: clamp(50px, calc((100vw * 100) / 767), 100px); */
